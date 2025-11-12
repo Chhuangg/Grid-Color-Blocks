@@ -1,48 +1,47 @@
 html, body {
     height: 100%;
     margin: 0;
-    padding: 0 1px;
+    padding: 0;
 }
 
 .color{
     border: 2px solid black;
-    color: rgb(255, 255, 255);
+    color: #ffffff;
 }
 
 
 #row1{
     width: 100%;
     display: grid;
-    grid-gap: 4px; 
+    grid-gap: 0 0.5%; 
     grid-template-columns: 4.5fr 2.3fr 3.2fr;
-    margin-bottom: 1%;
+    margin-bottom: 4.4%;
     height: 10%;
 }
 
 #row2{
     width: 100%;
     display: grid;
-    grid-gap: 4px; 
+    grid-gap: 0 0.5%;  
     grid-template-columns: 6.8fr 3.2fr;
-    margin-bottom: 1%;
+    margin-bottom: 7.8%;
     height: 18%;
 }
 
 #row3{
     width: 100%;
     display: grid;
-    grid-gap: 4px; 
+    grid-gap: 0 0.5%; 
     grid-template-columns: 4.5fr 5.5fr;
-    margin-bottom: 1%;
+    margin-bottom: 3.1%;
     height: 8%; 
 }
 
 #row4{
     width: 100%;
     display: grid;
-    grid-gap: 4px; 
+    grid-gap: 0 0.5%; 
     grid-template-columns: 1fr;
-    margin-bottom: 1%;
     height:12%
 }
 
@@ -72,7 +71,7 @@ html, body {
 .blue{
     background-color: blue;  
     padding: 21% 45%;
-    height: 19%;
+    height: 13%;
               
 }
 
